@@ -48,12 +48,13 @@ namespace TradeTips.Features.Stocks
                 .Skip(message.Offset ?? 0)
                 .Take(message.Limit ?? 500)
                 .AsNoTracking()
+                .OrderBy(s => s.LatestPublicationDate)
                 .ToListAsync();
 
             return new StocksEnvelopeDTO
             {
                 Stocks = dtos,
-                StocksCount = dtos.Count()
+                StocksCount = stocks.Count()
             };
 
         }
