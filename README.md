@@ -3,7 +3,7 @@ This is a work-in-progress web API developed using ASP.NET Core.
 
 It is based on the [ContosoUniversityCore](https://github.com/jbogard/ContosoUniversityCore) and [Realworld](https://github.com/gothinkster/aspnetcore-realworld-example-app) projects and uses CQRS with [MediatR](https://github.com/jbogard/MediatR) to continue thin controller / seperation of concern design patterns.
 
-Authentication is implemented using JWT [ASP.NET Core JWT Bearer Authentication]
+Authentication is implemented using JWT [ASP.NET Core JWT Bearer Authentication](https://github.com/aspnet/Security/tree/master/src/Microsoft.AspNetCore.Authentication.JwtBearer)
 
 Some further refactoring is required with [AutoMapper](http://automapper.org) and LINQ to optimise the handlers.
 
