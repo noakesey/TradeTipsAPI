@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeTips.Api", "src\TradeTips.Api\TradeTips.Api.csproj", "{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C288D93-2148-4679-9890-DBFCA0C59BCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9F832627-4D82-4B5B-84A7-244E8480845E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeTips.IntegrationTests", "tests\TradeTips.IntegrationTests\TradeTips.IntegrationTests.csproj", "{3FA1CB9F-6486-4C2F-926E-5298C6AF4841}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeTips.Features", "src\TradeTips.Features\TradeTips.Features.csproj", "{D0712092-B581-4AC3-98E8-45FEBE1953C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeTips.Security", "src\TradeTips.Security\TradeTips.Security.csproj", "{72560D0A-E14E-4DF9-A802-A7263277104F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeTips.Domain", "src\TradeTips.Domain\TradeTips.Domain.csproj", "{7795419D-6D9E-4D60-9DB1-A88AA3252A48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA1CB9F-6486-4C2F-926E-5298C6AF4841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA1CB9F-6486-4C2F-926E-5298C6AF4841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA1CB9F-6486-4C2F-926E-5298C6AF4841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA1CB9F-6486-4C2F-926E-5298C6AF4841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0712092-B581-4AC3-98E8-45FEBE1953C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0712092-B581-4AC3-98E8-45FEBE1953C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0712092-B581-4AC3-98E8-45FEBE1953C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0712092-B581-4AC3-98E8-45FEBE1953C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72560D0A-E14E-4DF9-A802-A7263277104F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72560D0A-E14E-4DF9-A802-A7263277104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72560D0A-E14E-4DF9-A802-A7263277104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72560D0A-E14E-4DF9-A802-A7263277104F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7795419D-6D9E-4D60-9DB1-A88AA3252A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7795419D-6D9E-4D60-9DB1-A88AA3252A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7795419D-6D9E-4D60-9DB1-A88AA3252A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7795419D-6D9E-4D60-9DB1-A88AA3252A48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA} = {7C288D93-2148-4679-9890-DBFCA0C59BCC}
+		{3FA1CB9F-6486-4C2F-926E-5298C6AF4841} = {9F832627-4D82-4B5B-84A7-244E8480845E}
+		{D0712092-B581-4AC3-98E8-45FEBE1953C8} = {7C288D93-2148-4679-9890-DBFCA0C59BCC}
+		{72560D0A-E14E-4DF9-A802-A7263277104F} = {7C288D93-2148-4679-9890-DBFCA0C59BCC}
+		{7795419D-6D9E-4D60-9DB1-A88AA3252A48} = {7C288D93-2148-4679-9890-DBFCA0C59BCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38EE57A3-DE9F-4405-81D5-CB8BD202A4EB}
+	EndGlobalSection
+EndGlobal
