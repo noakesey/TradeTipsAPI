@@ -25,7 +25,7 @@ namespace TradeTips.Api
 {
     public class Startup
     {
-        public const string DEFAULT_DATABASE_CONNECTIONSTRING = "Server=WS2019\\SQLExpress;database=TradeTipsAPI;trusted_connection=true;";
+        public const string DEFAULT_DATABASE_CONNECTIONSTRING = "Server=localhost\\SQLExpress;database=TradeTipsAPI;trusted_connection=true;";
 
         #region Entry points
 
